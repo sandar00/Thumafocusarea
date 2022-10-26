@@ -1,0 +1,38 @@
+:root{
+    --maincolor: red;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* color : red */
+.reds{
+    color:var(--maincolor)
+}
+
+/* thuma origin */
+.origin-imgs{
+    max-width: 500px;
+    object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+    .origin2{
+        display:flex;
+        justify-content:center;
+    }
+
+    .origin-imgs{
+        max-width:100%;
+        object-fit: contain;
+    }
+
+    @media(max-width: 440px) {
+        .origin-imgs{
+            max-width:300px;
+            margin:0;
+        }
+    } 
+}
