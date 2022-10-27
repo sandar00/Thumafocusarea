@@ -90,3 +90,14 @@
         list-style: none;
     }
 }
+
+/* Structure */
+.structure-container{
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.structure-imgs{
+    max-width: 600px;
+    max-height: 400px;
+}
